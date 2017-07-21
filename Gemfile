@@ -9,11 +9,13 @@ end
 gem 'rails', '~> 5.1.2'
 gem 'puma', '~> 3.7'
 gem 'sass-rails', '~> 5.0'
+gem 'jquery-rails'
 gem 'uglifier', '>= 1.3.0'
 gem 'therubyracer', platforms: :ruby
 gem 'coffee-rails', '~> 4.2'
 gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.5'
+gem 'bootstrap-sass', '~> 3.3.6'
 gem 'mail_form', '~> 1.5', '>= 1.5.1'
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 3.0'
