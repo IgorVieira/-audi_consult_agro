@@ -6,6 +6,7 @@ class ContactsController < ApplicationController
 	def create
 		@contact = Contact.new(params[:contact])
 		@contact.request = request
+		# redirect_to root_path
 		if @contact.deliver
 			flash.now[:error] = nil
 		else
